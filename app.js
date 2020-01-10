@@ -27,4 +27,4 @@ const options = {
 mongoose.connect(process.env.DB_CONNECTION, options, () => console.log('connected to DB'));
 
 //How do we start listening to the server
-app.listen(4000);
+app.listen(3000);
